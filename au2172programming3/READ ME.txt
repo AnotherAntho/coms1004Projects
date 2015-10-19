@@ -1,0 +1,48 @@
+//Anthony Urena
+//au2172
+//README.txt - a README file explaining how to compile and run programs for PHW3
+
+---
+INTRODUCTION
+---
+The current directory, au2172programming3, contains three files: Drunkard.java, CreditCard.java current README.txt. The current README.txt is a text file that explains the contents of the directory and how to compile and run programs. The other four files are java source files that contain Java code for diverse programs. 
+
+---
+JAVA SOURCE FILES
+---
+
+1. Drunkard.java contains the Java code to simulate the behavior of the drunkard (random) walk. Drunkard.java is designed to work in tandem with the DrunkardTester class, and as such does not contain a main method. Instead, this file contains the constructor method and several accessor and mutator methods that can be called upon by the DrunkardTester class. The methods serve to advance the drunkard randomly to subsequent intersections in an infinite grid, as well as identify the drunkard's current location and calculate the distance between that location and the drunkard's origin. Drunkard.java must be compiled first before DrunkardTester can be run properly. 
+
+2. CreditCard.java contains the Java code to check the validity of a credit card as determined by a given set of validity checks. CreditCard.java is designed to work in tandem with the CreditCardTester class, and as such does not contain a main method. Instead, this file contains the constructor method and several accessor and mutator methods that can be called upon by the CreditCardTester class. It also contains internal helper methods that are used to facilitate the various validity checks. Aside from helping to determine whether or not a credit card number is valid, it can also be used to identify the specific validity check that was not passed. CreditCard.java must be compiled first before CreditCardTester can be run properly.
+
+
+---
+GENERAL WRITING, COMPILING, AND RUNNING
+---
+Several steps must be taken to create and run these programs. Java source code must first be written in a text editor of the programmer's choosing. After java code has been written in an appropriate text editor, it must be saved as a .java file. Once that file is created, it must then be compiled into machine code using the javac command. This creates a class file, which can then be run in a terminal using the java command. See below for a step-by-step guide for Mac OSX using Drunkard and DrunkardTester as an example.
+
+1. Open the Terminal app
+2. Login to Cunix using uni and password
+3. Create a new java source file for Drunkard by typing
+
+pico Drunkard.java
+
+4. You are now in the pico text editor. Enter your source code here
+5. Save your file and exit out of the pico editor
+6. Compile your java source file by typing
+
+javac Drunkard.java
+
+7. If all has gone well, you have created a Drunkard.class file. If compile time errors appear, reopen your Drunkard.java file with pico and make the proper edits (do not forget to re-compile!). You can do this by typing
+
+pico Drunkard.java
+
+8. Once your file is compiled, check that it works with the tester by typing
+
+java DrunkardTester
+
+9. Test to see that your program runs according to the intended logic.
+
+10. In the event of any runtime errors, make sure to make edits by opening Drunkard.java with pico and recompiling again with javac.
+
+I hope you find this guide informative. Enjoy and code on!

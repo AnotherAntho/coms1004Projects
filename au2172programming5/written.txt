@@ -1,0 +1,26 @@
+//Anthony Urena
+//au2172
+//written.txt - Contains the student's website and answers to written exercises
+
+
+Website  www.columbia.edu/~au2172
+
+R9.1
+
+a. Super Class - Employee | Subclass - Manager 
+b. Super Class - Student | Subclass - Gradstudent 
+c. Super Class - Person | Subclass - Student
+d. Super Class - Employee | Subclass - Professor 
+e. Super Class - Bank account | Subclass - Checking account
+f. Super Class - Vehicle | Subclass - Car
+g. Super Class - Vehicle | Subclass - Minivan
+h. Super Class - Car | Subclass - Minivan
+i. Super Class - Vehicle | Subclass - Truck
+
+R9.6
+
+a. x=y legal
+b. y=x illegal
+c. y=new sandwich() illegal 
+d. x=new sub() legal
+
